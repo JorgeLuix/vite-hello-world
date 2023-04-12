@@ -1,12 +1,12 @@
 <template>
-    <div>
+    <div class="title">
         <h1>{{ titolo }} </h1>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'AppTitle',
+        name: 'Apptitle',
         data() {
             return {
                 titolo: 'La mia prima app con Vite!'
